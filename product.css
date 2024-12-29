@@ -1,0 +1,86 @@
+body{
+    background-color: lightgray;
+}
+*{
+    text-decoration: none;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+li a{
+    color: black;
+    margin-right: 55px;
+}
+.container1{
+    
+    text-align: center;
+    
+
+}
+.container1 button{
+    background-color: rgb(216, 176, 102);
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    
+   
+}
+.container1 input{
+    width: 350px;
+    height: 30px;
+}
+.div1{
+    
+    display: flex;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.section1 .text{
+    max-width: 70%;
+}
+.section1 i{
+    color: orange;
+    margin-right: 200px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+    margin: 20px;
+}
+.container3 h2{
+    background-color: gray;
+    height: 40px;
+    
+}
+.container3 .product{
+    border: 1px solid black;
+}
+.container3 button{
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+}
+
+
